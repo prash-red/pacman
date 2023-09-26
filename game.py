@@ -8,9 +8,9 @@ from grid import grid
 from algo import get_next_coordinate
 from constants import BLACK, BLUE, RED, WHITE, YELLOW, o, e, I, O, c
 
-GRID_SIZE = 20  
-GRID_WIDTH = len(grid)  
-GRID_HEIGHT = len(grid[0]) 
+GRID_SIZE = 20
+GRID_WIDTH = len(grid)
+GRID_HEIGHT = len(grid[0])
 
 pygame.init()
 
@@ -24,8 +24,8 @@ pacman_y = 7
 
 clock = pygame.time.Clock()
 
-start_time = pygame.time.get_ticks()  
-score = 0 
+start_time = pygame.time.get_ticks()
+score = 0
 
 # Main game loop
 running = True
@@ -39,11 +39,11 @@ while running:
     screen.fill(BLACK)
 
     current_time = pygame.time.get_ticks()
-    elapsed_time = (current_time - start_time) // 1000 
+    elapsed_time = (current_time - start_time) // 1000
 
     current_x, current_y = pacman_x, pacman_y
     path = get_next_coordinate(grid, (current_x, current_y))
-    
+
     if path is None or len(path) == 0 or path[0] is None:
         print("Invalid Path. Try something else")
         running = False
@@ -60,12 +60,12 @@ while running:
         orientation_angle = -90
     elif pacman_y > current_y:
         orientation_angle = 90
-    
-    
+
+
     if grid[pacman_x][pacman_y] == o:
         grid[pacman_x][pacman_y] = e
         score += 10
-        
+
     # Draw the grid
     pellet = False
     for row in range(GRID_WIDTH):
@@ -89,13 +89,13 @@ while running:
         running = False
 
    # Draw Pac-Man body
-    pacman_radius = GRID_SIZE // 2 - 2 
+    pacman_radius = GRID_SIZE // 2 - 2
     pacman_rect = pygame.Rect(pacman_x * GRID_SIZE, pacman_y * GRID_SIZE, GRID_SIZE, GRID_SIZE)
     pygame.draw.circle(screen, YELLOW, (pacman_x * GRID_SIZE + GRID_SIZE // 2, pacman_y * GRID_SIZE + GRID_SIZE // 2), pacman_radius)
 
     # Draw Pac-Man mouth
     mouth_points = [(pacman_x * GRID_SIZE + GRID_SIZE // 2, pacman_y * GRID_SIZE + GRID_SIZE // 2)]
-    mouth_angle = 40 
+    mouth_angle = 40
     for angle in range(orientation_angle - mouth_angle, orientation_angle + mouth_angle + 1):
         x = pacman_x * GRID_SIZE + GRID_SIZE // 2 + pacman_radius * math.cos(math.radians(angle))
         y = pacman_y * GRID_SIZE + GRID_SIZE // 2 + pacman_radius * math.sin(math.radians(angle))

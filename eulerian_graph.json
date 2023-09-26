@@ -1,0 +1,1126 @@
+{
+    "vertices": [
+        {
+            "col": 12,
+            "row": 29
+        },
+        {
+            "col": 18,
+            "row": 7
+        },
+        {
+            "col": 12,
+            "row": 22
+        },
+        {
+            "col": 6,
+            "row": 22
+        },
+        {
+            "col": 9,
+            "row": 4
+        },
+        {
+            "col": 1,
+            "row": 10
+        },
+        {
+            "col": 15,
+            "row": 29
+        },
+        {
+            "col": 24,
+            "row": 7
+        },
+        {
+            "col": 12,
+            "row": 4
+        },
+        {
+            "col": 18,
+            "row": 4
+        },
+        {
+            "col": 15,
+            "row": 10
+        },
+        {
+            "col": 1,
+            "row": 22
+        },
+        {
+            "col": 21,
+            "row": 25
+        },
+        {
+            "col": 18,
+            "row": 22
+        },
+        {
+            "col": 1,
+            "row": 1
+        },
+        {
+            "col": 26,
+            "row": 7
+        },
+        {
+            "col": 15,
+            "row": 4
+        },
+        {
+            "col": 15,
+            "row": 25
+        },
+        {
+            "col": 12,
+            "row": 1
+        },
+        {
+            "col": 1,
+            "row": 25
+        },
+        {
+            "col": 21,
+            "row": 4
+        },
+        {
+            "col": 6,
+            "row": 10
+        },
+        {
+            "col": 9,
+            "row": 7
+        },
+        {
+            "col": 1,
+            "row": 4
+        },
+        {
+            "col": 26,
+            "row": 10
+        },
+        {
+            "col": 15,
+            "row": 1
+        },
+        {
+            "col": 1,
+            "row": 29
+        },
+        {
+            "col": 6,
+            "row": 4
+        },
+        {
+            "col": 26,
+            "row": 25
+        },
+        {
+            "col": 12,
+            "row": 25
+        },
+        {
+            "col": 3,
+            "row": 4
+        },
+        {
+            "col": 21,
+            "row": 10
+        },
+        {
+            "col": 18,
+            "row": 25
+        },
+        {
+            "col": 6,
+            "row": 7
+        },
+        {
+            "col": 26,
+            "row": 1
+        },
+        {
+            "col": 12,
+            "row": 10
+        },
+        {
+            "col": 15,
+            "row": 22
+        },
+        {
+            "col": 12,
+            "row": 7
+        },
+        {
+            "col": 26,
+            "row": 29
+        },
+        {
+            "col": 15,
+            "row": 7
+        },
+        {
+            "col": 6,
+            "row": 29
+        },
+        {
+            "col": 9,
+            "row": 25
+        },
+        {
+            "col": 3,
+            "row": 7
+        },
+        {
+            "col": 26,
+            "row": 4
+        },
+        {
+            "col": 26,
+            "row": 22
+        },
+        {
+            "col": 9,
+            "row": 22
+        },
+        {
+            "col": 21,
+            "row": 7
+        },
+        {
+            "col": 6,
+            "row": 25
+        },
+        {
+            "col": 21,
+            "row": 22
+        },
+        {
+            "col": 1,
+            "row": 7
+        },
+        {
+            "col": 21,
+            "row": 29
+        },
+        {
+            "col": 24,
+            "row": 4
+        }
+    ],
+    "edges": [
+        {
+            "vertex1": [
+                1,
+                7
+            ],
+            "vertex2": [
+                1,
+                10
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                9,
+                7
+            ],
+            "vertex2": [
+                15,
+                1
+            ],
+            "weight": 2,
+            "pseudo": true
+        },
+        {
+            "vertex1": [
+                21,
+                10
+            ],
+            "vertex2": [
+                15,
+                10
+            ],
+            "weight": 6,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                21,
+                25
+            ],
+            "vertex2": [
+                21,
+                29
+            ],
+            "weight": 4,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                9,
+                22
+            ],
+            "vertex2": [
+                12,
+                22
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                12,
+                25
+            ],
+            "vertex2": [
+                12,
+                29
+            ],
+            "weight": 4,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                24,
+                4
+            ],
+            "vertex2": [
+                24,
+                7
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                15,
+                25
+            ],
+            "vertex2": [
+                1,
+                25
+            ],
+            "weight": 2,
+            "pseudo": true
+        },
+        {
+            "vertex1": [
+                18,
+                4
+            ],
+            "vertex2": [
+                18,
+                7
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                21,
+                29
+            ],
+            "vertex2": [
+                15,
+                29
+            ],
+            "weight": 6,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                6,
+                22
+            ],
+            "vertex2": [
+                1,
+                22
+            ],
+            "weight": 5,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                1,
+                22
+            ],
+            "vertex2": [
+                1,
+                25
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                1,
+                10
+            ],
+            "vertex2": [
+                6,
+                10
+            ],
+            "weight": 5,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                9,
+                4
+            ],
+            "vertex2": [
+                12,
+                4
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                12,
+                1
+            ],
+            "vertex2": [
+                1,
+                1
+            ],
+            "weight": 11,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                24,
+                7
+            ],
+            "vertex2": [
+                26,
+                7
+            ],
+            "weight": 2,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                18,
+                4
+            ],
+            "vertex2": [
+                15,
+                4
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                12,
+                1
+            ],
+            "vertex2": [
+                12,
+                4
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                26,
+                22
+            ],
+            "vertex2": [
+                26,
+                25
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                21,
+                25
+            ],
+            "vertex2": [
+                18,
+                25
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                15,
+                25
+            ],
+            "vertex2": [
+                15,
+                29
+            ],
+            "weight": 4,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                21,
+                4
+            ],
+            "vertex2": [
+                21,
+                7
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                1,
+                4
+            ],
+            "vertex2": [
+                1,
+                1
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                26,
+                7
+            ],
+            "vertex2": [
+                26,
+                10
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                6,
+                25
+            ],
+            "vertex2": [
+                1,
+                25
+            ],
+            "weight": 5,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                3,
+                4
+            ],
+            "vertex2": [
+                6,
+                4
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                15,
+                1
+            ],
+            "vertex2": [
+                15,
+                4
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                15,
+                25
+            ],
+            "vertex2": [
+                18,
+                25
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                21,
+                25
+            ],
+            "vertex2": [
+                26,
+                25
+            ],
+            "weight": 5,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                3,
+                4
+            ],
+            "vertex2": [
+                6,
+                7
+            ],
+            "weight": 2,
+            "pseudo": true
+        },
+        {
+            "vertex1": [
+                15,
+                25
+            ],
+            "vertex2": [
+                12,
+                25
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                6,
+                22
+            ],
+            "vertex2": [
+                6,
+                10
+            ],
+            "weight": 12,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                12,
+                1
+            ],
+            "vertex2": [
+                15,
+                1
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                24,
+                4
+            ],
+            "vertex2": [
+                21,
+                4
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                9,
+                25
+            ],
+            "vertex2": [
+                12,
+                25
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                1,
+                4
+            ],
+            "vertex2": [
+                3,
+                4
+            ],
+            "weight": 2,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                21,
+                29
+            ],
+            "vertex2": [
+                21,
+                22
+            ],
+            "weight": 2,
+            "pseudo": true
+        },
+        {
+            "vertex1": [
+                1,
+                25
+            ],
+            "vertex2": [
+                1,
+                29
+            ],
+            "weight": 4,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                26,
+                10
+            ],
+            "vertex2": [
+                21,
+                10
+            ],
+            "weight": 5,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                18,
+                22
+            ],
+            "vertex2": [
+                18,
+                25
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                18,
+                25
+            ],
+            "vertex2": [
+                15,
+                22
+            ],
+            "weight": 2,
+            "pseudo": true
+        },
+        {
+            "vertex1": [
+                26,
+                1
+            ],
+            "vertex2": [
+                15,
+                1
+            ],
+            "weight": 11,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                6,
+                4
+            ],
+            "vertex2": [
+                6,
+                7
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                12,
+                10
+            ],
+            "vertex2": [
+                6,
+                10
+            ],
+            "weight": 6,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                21,
+                7
+            ],
+            "vertex2": [
+                24,
+                4
+            ],
+            "weight": 2,
+            "pseudo": true
+        },
+        {
+            "vertex1": [
+                18,
+                7
+            ],
+            "vertex2": [
+                15,
+                7
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                6,
+                29
+            ],
+            "vertex2": [
+                1,
+                29
+            ],
+            "weight": 5,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                3,
+                4
+            ],
+            "vertex2": [
+                3,
+                7
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                26,
+                25
+            ],
+            "vertex2": [
+                26,
+                29
+            ],
+            "weight": 4,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                9,
+                4
+            ],
+            "vertex2": [
+                9,
+                7
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                6,
+                29
+            ],
+            "vertex2": [
+                9,
+                25
+            ],
+            "weight": 2,
+            "pseudo": true
+        },
+        {
+            "vertex1": [
+                21,
+                22
+            ],
+            "vertex2": [
+                21,
+                10
+            ],
+            "weight": 12,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                9,
+                7
+            ],
+            "vertex2": [
+                6,
+                7
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                12,
+                22
+            ],
+            "vertex2": [
+                18,
+                7
+            ],
+            "weight": 2,
+            "pseudo": true
+        },
+        {
+            "vertex1": [
+                6,
+                29
+            ],
+            "vertex2": [
+                12,
+                29
+            ],
+            "weight": 6,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                15,
+                22
+            ],
+            "vertex2": [
+                18,
+                22
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                12,
+                7
+            ],
+            "vertex2": [
+                15,
+                7
+            ],
+            "weight": 2,
+            "pseudo": true
+        },
+        {
+            "vertex1": [
+                21,
+                7
+            ],
+            "vertex2": [
+                21,
+                10
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                26,
+                1
+            ],
+            "vertex2": [
+                26,
+                4
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                9,
+                22
+            ],
+            "vertex2": [
+                9,
+                25
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                6,
+                25
+            ],
+            "vertex2": [
+                9,
+                25
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                6,
+                7
+            ],
+            "vertex2": [
+                6,
+                10
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                21,
+                22
+            ],
+            "vertex2": [
+                26,
+                22
+            ],
+            "weight": 5,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                6,
+                22
+            ],
+            "vertex2": [
+                6,
+                25
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                12,
+                7
+            ],
+            "vertex2": [
+                12,
+                10
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                6,
+                25
+            ],
+            "vertex2": [
+                6,
+                29
+            ],
+            "weight": 4,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                12,
+                7
+            ],
+            "vertex2": [
+                15,
+                7
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                21,
+                29
+            ],
+            "vertex2": [
+                26,
+                29
+            ],
+            "weight": 5,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                1,
+                7
+            ],
+            "vertex2": [
+                3,
+                7
+            ],
+            "weight": 2,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                15,
+                7
+            ],
+            "vertex2": [
+                15,
+                10
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                9,
+                7
+            ],
+            "vertex2": [
+                12,
+                7
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                24,
+                4
+            ],
+            "vertex2": [
+                26,
+                4
+            ],
+            "weight": 2,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                6,
+                22
+            ],
+            "vertex2": [
+                12,
+                1
+            ],
+            "weight": 2,
+            "pseudo": true
+        },
+        {
+            "vertex1": [
+                21,
+                25
+            ],
+            "vertex2": [
+                21,
+                22
+            ],
+            "weight": 3,
+            "pseudo": false
+        },
+        {
+            "vertex1": [
+                26,
+                25
+            ],
+            "vertex2": [
+                12,
+                25
+            ],
+            "weight": 2,
+            "pseudo": true
+        },
+        {
+            "vertex1": [
+                18,
+                7
+            ],
+            "vertex2": [
+                21,
+                7
+            ],
+            "weight": 3,
+            "pseudo": false
+        }
+    ]
+}
