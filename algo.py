@@ -52,7 +52,8 @@ def get_next_coordinate(grid: list[list], location: tuple) -> Optional[list | tu
         - If the next coordinate is valid, return the next coordinate in the form (x, y) or [x,y].
         - If the next coordinate is invalid, return None.
     """
-    algorithm = 2
+    # set algorithm = 1 for bfs algorithm and algorithm = 2 for fleury's algorithm
+    algorithm = 1
 
     if algorithm == 1:
         nearest_pellet, path = bfs_nearest_pellet(grid, location, set())
