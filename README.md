@@ -29,4 +29,4 @@ To get started with this project, clone the repository and explore the code and 
 
 ## Acknowledgments
 
-We would like to thank the UTRA club for providing this exciting assignment and opportunity to work on Pac-Man pathfinding algorithms.
+I would like to thank the UTRA club for providing this exciting assignment and opportunity to work on Pac-Man pathfinding algorithms.
